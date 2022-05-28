@@ -1,0 +1,19 @@
+<div *ngIf="hero">
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>name: </span>{{hero.name}}</div> 
+  <div><span>id: </span>{{hero.id}}</div>
+  <div><span>style: </span>{{hero.style}}</div>
+  <div><span>date: </span>{{hero.date}}</div>
+  <div><span>type: </span>{{hero.type}}</div> 
+  
+ 
+  <button (click)="goBack()">go back</button>
+ 
+</div>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
